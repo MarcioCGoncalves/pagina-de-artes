@@ -93,3 +93,82 @@ span {
     border: solid 0.2rem var(--color-00);
 
 }
+
+.home-content, .about-content {
+    width: 45%;
+}
+
+.home-content h1, .about-content h1 {
+    font-weight: 700;
+    font-size: 1.rem;
+}
+
+.home-content h3, .about-content h3 {
+    font-weight: 700;
+    font-size: 1.rem;
+}
+
+.home-content p, .about-content p{
+    margin-top: 1.2rem;
+    text-align: justify;
+
+}
+
+.services h2, .contact h2 {
+    font-size: 2.2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.services h1, .contact h1 {
+    font-size: 2.2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.services p, .contact p {
+    font-size: 2.2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.services-container, .services-box {
+    padding: 2rem 1rem 2.5rem;
+    border-radius:  1.2rem;
+    text-align: center;
+    border: solid 0.15rem var(--color-00);
+    background-color: var(--main-color);
+    transition: 0.5s ease;
+}
+
+.services-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 25rem;
+    margin-bottom: 1rem;
+}
+
+.services-container, .services-box:hover {
+    border-color: var(--color-00);
+    transform: scale(1.02);
+}
+
+.services-box i {
+    font-size: 2.3rem;
+}
+
+.services-box h3 {
+    font-size: 1.5rem;   
+}
+
+.services-box p {
+    margin: 0.5rem;
+    letter-spacing: 0.1rem;   
+}
