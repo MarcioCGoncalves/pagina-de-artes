@@ -91,6 +91,12 @@ span {
 
 .art-img img {
     border: solid 0.2rem var(--color-00);
+    font-size: 1.1rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+    max-width: 250px;
+    max-height: 250px;
 
 }
 
