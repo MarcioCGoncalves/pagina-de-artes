@@ -31,10 +31,10 @@
 
             <h3>Bem vindo(a) ao</h3>
             <h1>Expondo Arte!</h1>
-            <h3>Site para pessoas <span>autônomas</span> que trabalham com <span>arte!</span></h3>
+            <h3>Site para pessoas <span>autônomas</span> que trabalham com <span>arte</span> na cidade de Torres</h3>
 
             <p>
-                Tenha aqui o seu espaço web para mostrar o seu trabalho, totalmente gratuíto. Todos tipos de trabalhos são válidos (pinturas, desenhos, trabalhos artesanais, esculturas e demais formas de arte.)
+                Tenha aqui o seu espaço web para mostrar o seu trabalho, totalmente gratuíto. Todos tipos de trabalhos são válidos (pinturas, desenhos, trabalhos artesanais, esculturas, fotografias e demais formas de arte.)
             </p>
 
             <!-- media section -->
@@ -61,20 +61,20 @@
 
     <!-- service -->
     <section class="services" id="services">
-        <h2>Perfil</h2>
+        <h2>Artistas</h2>
 
         <div class="services-container">
             <div class="services-box">
                 <i class='bx bx-user'></i>
                 <h3>Heloisa Selau</h3>
 
-                <P>Croche, fotografia religiosa e fotografias em geral. Confira mais em suas redes sociais.</P>
+                <P>Bordados, fotografias religiosa e fotografias em geral. Confira mais em suas redes sociais.</P>
 
                 <div class="social-media">
                 <a href="#"><i class='bx bxl-instagram'></i></a>
                 <a href="#"><i class='bx bxl-instagram'></i></a>
                 <a href="#"><i class='bx bxl-instagram'></i></a>
-                 </div>
+                </div>
 
 
 
@@ -99,11 +99,17 @@
             
  
             <!-- <div class="services-box">
-                icon
+                <i class='bx bx-user'></i>
                 <h3>Nome Em Breve</h3>
 
                 <P>Descrição Em Breve</P>
-                <a href="#" class="btn">Confira aqui(Em breve)</a>
+
+                <div class="social-media">
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                </div>
+
             </div> -->
 
 
@@ -116,20 +122,21 @@
     <!-- contact -->
      <section class="contact" id="contact">
         <h2>Contato</h2>
-       <form action="">
+       <form action="https://formsubmit.co/ddae528139e1ca3367173e1bf975ea97" method="POST">
             <div class="input-box">
                 <input type="text" placeholder="Nome completo">
-                <input type="email" placeholder="E-mail">
+                <input type="email" name="email" id="email" placeholder="E-mail">
+                <input type="number" name="number" id="number" placeholder="Número">
+                <textarea type="text" name="message" id="message" cols="30" rows="10" placeholder="Mensagem"></textarea>
+
+
+                
             </div>
 
-            <div class="input-box">
-                <input type="number" placeholder="Número">
-                <input type="text" placeholder="Assunto">
-            </div>
 
-            <textarea cols="30" rows="10" placeholder="Mensagem"></textarea>
 
-            <a href="#" class="btn">Enviar Mensagem</a>
+            <button class="btn" type="submit">Enviar</button>
+
        </form> 
 
      </section>
